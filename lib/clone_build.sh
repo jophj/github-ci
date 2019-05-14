@@ -1,4 +1,4 @@
-git clone -b $BRANCH \
+git clone --recursive -b $BRANCH \
     --single-branch \
     https://$GITHUB_ACCESS_TOKEN@github.com/$REPO.git $BUILD_DIR && \
     cd $BUILD_DIR && \
